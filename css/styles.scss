@@ -1,4 +1,21 @@
 /* Styling */
+//imports
+@import "normalize";
+@import "lightgallery";
+@import "lg-transitions";
+
 body {
-    background: red;
+    background: #7373cc;
+}
+
+//portfolio items
+figrue {
+    background: white;
+    width: 300px;
+    padding: 1em;
+    text-align: center;
+
+}
+figure img {
+    box-shadow: 2px 2px 2px gray;
 }
