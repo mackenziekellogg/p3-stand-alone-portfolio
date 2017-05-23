@@ -2597,9 +2597,9 @@ body {
   background: #7373cc; }
 
 /* line 12, /Users/MackenzieKellogg/Desktop/p3-stand-alone-portfolio/css/styles.scss */
-figrue {
+figure {
   background: white;
-  width: 300px;
+  max-width: 300px;
   padding: 1em;
   text-align: center; }
 
