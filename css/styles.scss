@@ -8,6 +8,19 @@ body {
     background: #7373cc;
 }
 
+//Layout
+main {
+    background: #aef6fc;
+    margin: 0 auto;
+    width: 90%;
+}
+// RWD header img
+main header img {
+    max-height: 400px;
+    width: 100%;
+    max-width: 100%;
+}
+
 //portfolio items
 figure {
     background: white;
@@ -18,4 +31,19 @@ figure {
 }
 figure img {
     box-shadow: 2px 2px 2px gray;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article figure {
+    background: orange;
+        padding: 2em;
+    width: 20em;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

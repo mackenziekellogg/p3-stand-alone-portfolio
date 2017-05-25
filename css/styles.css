@@ -2597,14 +2597,40 @@ body {
   background: #7373cc; }
 
 /* line 12, /Users/MackenzieKellogg/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+main {
+  background: #aef6fc;
+  margin: 0 auto;
+  width: 90%; }
+
+/* line 18, /Users/MackenzieKellogg/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+main header img {
+  max-height: 400px;
+  width: 100%;
+  max-width: 100%; }
+
+/* line 25, /Users/MackenzieKellogg/Desktop/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   background: white;
   max-width: 300px;
   padding: 1em;
   text-align: center; }
 
-/* line 19, /Users/MackenzieKellogg/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+/* line 32, /Users/MackenzieKellogg/Desktop/p3-stand-alone-portfolio/css/styles.scss */
 figure img {
   box-shadow: 2px 2px 2px gray; }
+
+/* line 36, /Users/MackenzieKellogg/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+article {
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 41, /Users/MackenzieKellogg/Desktop/p3-stand-alone-portfolio/css/styles.scss */
+article figure {
+  background: orange;
+  padding: 2em;
+  width: 20em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
 
 /*# sourceMappingURL=styles.css.map */
