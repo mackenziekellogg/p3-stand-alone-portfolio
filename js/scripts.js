@@ -12,8 +12,11 @@ console.log(randNum);
 // Swap Out Banner
 $('header img').attr('src', eval('img' + randNum) );
 
+
 // Light Gallery
 $('figure').lightGallery({
     selector: 'a',
-    mode: 'lg-lollipop'
+    mode: 'lg-slide-circular',
+    thumbnail: true,
+    
 });
